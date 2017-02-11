@@ -1,0 +1,16 @@
+{application, rebar3_travis_plugin,
+ [{description, "A rebar plugin imitating 'rebar3 do' while adding travis log fold markers"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers,[]},
+  {licenses,["Apache"]},
+  {links,[{"Github",
+           "https://github.com/srenatus/rebar3_travis_plugin"}]}
+ ]}.
