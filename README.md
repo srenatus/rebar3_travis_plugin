@@ -21,7 +21,7 @@ Use
 Add the plugin to your rebar config:
 
     {plugins, [
-        { rebar3_travis_plugin, ".*", {git, "https://github.com/srenatus/rebar3_travis_plugin.git", {tag, "0.1.0"}}}
+        { rebar3_travis_plugin, {git, "https://github.com/srenatus/rebar3_travis_plugin.git", {branch, "master"}}}
     ]}.
 
 Then just replace calls to `rebar3 do` with `rebar3 travis`, for example:
